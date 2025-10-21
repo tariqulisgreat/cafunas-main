@@ -1,0 +1,204 @@
+.full-cta-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.full-cta-container {
+  display: flex;
+  gap: 80px; /* more space between left and right */
+  max-width: 1300px;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+/* ---------------- LEFT SIDE ---------------- */
+.cta-left {
+  flex: 0 0 48%; /* slightly smaller left side */
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cta-image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.cta-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat badge */
+.chat-badge {
+  position: absolute;
+  top: 50%;
+  left: -50px; /* overlaps left image naturally */
+  transform: translateY(-50%);
+  background-color: #003366;
+  color: #fff;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.3);
+}
+
+.chat-badge strong {
+  font-size: 30px;
+}
+
+/* Gray lines */
+.gray-line {
+  width: 100%;
+  max-width: 600px;
+  height: 1px;
+  background-color: #ccc;
+  margin: 2px 0;
+}
+
+/* Icons under image */
+.cta-icons-below {
+  display: flex;
+  gap: 40px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #003366;
+}
+
+.cta-inline-icon {
+  font-size: 32px;
+  color: #003366;
+}
+
+/* ---------------- RIGHT SIDE ---------------- */
+.cta-right {
+  flex: 0 0 48%; /* balance width with left side */
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start; /* left align everything */
+  justify-content: center; /* vertical center relative to left image */
+}
+
+/* Site logo */
+.cta-right .site-logo {
+  width: 140px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Paragraph under logo */
+.cta-right .welcome-text {
+  color: gray;
+  font-size: 18px;
+  margin: 0;
+  text-align: left;
+}
+
+/* Heading 1 */
+.cta-right .main-heading {
+  color: #003366;
+  font-size: 38px;
+  font-weight: 700;
+  margin: 5px 0;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* Heading 2 */
+.cta-right .sub-heading {
+  color: orangered;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 5px 0;
+  line-height: 1.3;
+  text-align: left;
+}
+
+/* Paragraph description */
+.cta-right .description-text {
+  color: gray;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 1200px) {
+  .full-cta-container {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .cta-left,
+  .cta-right {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .chat-badge {
+    width: 140px;
+    height: 140px;
+    font-size: 18px;
+    left: -40px;
+  }
+
+  .chat-badge strong {
+    font-size: 26px;
+  }
+
+  .cta-icons-below {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .icon-text {
+    font-size: 18px;
+  }
+
+  .cta-inline-icon {
+    font-size: 28px;
+  }
+
+  .cta-right .site-logo {
+    width: 120px;
+  }
+
+  .cta-right .welcome-text {
+    font-size: 16px;
+  }
+
+  .cta-right .main-heading {
+    font-size: 28px;
+  }
+
+  .cta-right .sub-heading {
+    font-size: 20px;
+  }
+
+  .cta-right .description-text {
+    font-size: 16px;
+  }
+
+  .gray-line {
+    max-width: 100%;
+  }
+}

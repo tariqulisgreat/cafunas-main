@@ -1,0 +1,36 @@
+.combined-cta-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.cta-container {
+  display: flex;
+  gap: 50px; /* space between left and right */
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* responsive wrap */
+}
+
+.cta-left {
+  flex: 1 1 600px; /* left side min width */
+  max-width: 600px;
+}
+
+.cta-right {
+  flex: 1 1 500px; /* right side min width */
+  max-width: 600px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .cta-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cta-left,
+  .cta-right {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+}

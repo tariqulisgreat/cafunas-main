@@ -1,0 +1,58 @@
+.image-section {
+  background-color: #ffb800; /* yellow background */
+  padding: 60px 20px 0px 20px;
+}
+
+.image-section-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-card {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+  max-width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-card img {
+  width: 100%;
+  display: block;
+  margin-top: -30px; /* image pops down from top of yellow background */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.image-text {
+  background-color: #fff;
+  padding: 25px 0; /* increased height */
+  width: 80%;
+  text-align: center;
+  margin-top: -10px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px; /* increased text size */
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* optional: soft shadow */
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .image-section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-card {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+}

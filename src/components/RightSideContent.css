@@ -1,0 +1,77 @@
+.right-side-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 600px;
+  padding: 20px;
+}
+
+/* Site logo */
+.site-logo {
+  width: 140px; /* slightly larger logo */
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Paragraph under logo */
+.welcome-text {
+  color: gray;
+  font-size: 18px; /* increased */
+  margin: 0;
+}
+
+/* Heading 1 */
+.main-heading {
+  color: #003366; /* dark blue */
+  font-size: 38px; /* increased */
+  font-weight: 700; /* bold */
+  margin: 5px 0;
+  line-height: 1.2;
+}
+
+/* Heading 2 */
+.sub-heading {
+  color: orangered;
+  font-size: 24px; /* increased */
+  font-weight: 600;
+  margin: 5px 0;
+  line-height: 1.3;
+}
+
+/* Paragraph description */
+.description-text {
+  color: gray;
+  font-size: 18px; /* increased */
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+/* Align all content to the left of the section but right with logo width */
+.right-side-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .site-logo {
+    width: 120px;
+  }
+
+  .welcome-text {
+    font-size: 16px;
+  }
+
+  .main-heading {
+    font-size: 28px;
+  }
+
+  .sub-heading {
+    font-size: 20px;
+  }
+
+  .description-text {
+    font-size: 16px;
+  }
+}
