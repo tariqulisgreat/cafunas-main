@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://tariqulisgreat.github.io/cafunas",
+  "homepage": "https://tariqulisgreat.github.io/cafunas-main",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
