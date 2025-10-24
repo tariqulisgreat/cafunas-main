@@ -177,13 +177,16 @@ const MainMenu = () => {
         </ul>
 
         {/* Right Button */}
-        <div
-          style={styles.menuButton}
-          onMouseOver={handleButtonHover}
-          onMouseOut={handleButtonOut}
-        >
-          AREA<br />RISERVATA
-        </div>
+        <a
+  href="https://multi-role-managemen-huwj.bolt.host/"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={styles.menuButton}
+  onMouseOver={handleButtonHover}
+  onMouseOut={handleButtonOut}
+>
+  AREA<br />RISERVATA
+</a>
 
         {/* Mobile Toggle */}
         <div style={styles.menuToggle} onClick={toggleMenu}>
