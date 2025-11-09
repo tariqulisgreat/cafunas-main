@@ -16,13 +16,13 @@ const UniFor = () => {
     {
       id: "A1",
       icon: "🗣️",
-      title: "Corso di lingua livello A1",
+      title: "Corso di lingua livello A2",
       desc: "Livello base per la comunicazione e comprensione della lingua italiana. 🇮🇹",
     },
     {
       id: "B2",
       icon: "🗣️",
-      title: "Corso di lingua livello B2",
+      title: "Corso di lingua livello B1",
       desc: "Livello avanzato necessario per lavoro, studio e cittadinanza italiana. 🇮🇹",
     },
     {

@@ -119,16 +119,19 @@ const Contact = () => {
         <h2 style={styles.sectionTitle}>Come puoi raggiungerci</h2>
         <div style={styles.contactDetails}>
           <div style={styles.detailCard}>
-            <h3>📍 Indirizzo</h3>
-            <p>Via Roma 45, Milano, Italia</p>
+            <h3>📍 Sede Principale:
+</h3>
+            <p>Via Quinto Sella 79
+36100  Vicenza(VI)
+ITALIA</p>
           </div>
           <div style={styles.detailCard}>
             <h3>📞 Telefono</h3>
-            <p>+39 345 678 910</p>
+            <p>+39 350 881 6335</p>
           </div>
           <div style={styles.detailCard}>
             <h3>📧 Email</h3>
-            <p>info@azienda.it</p>
+            <p>unas.vicenza@gmail.com</p>
           </div>
         </div>
 
