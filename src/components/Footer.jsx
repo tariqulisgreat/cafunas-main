@@ -89,9 +89,9 @@ const Footer = () => {
         {/* LEFT: CONTACT INFO */}
         <div style={styles.section}>
           <h3 style={styles.sectionTitle}>Contatti</h3>
-          <p style={styles.contactItem}><FaPhoneAlt /> 06 58333803</p>
-          <p style={styles.contactItem}><FaEnvelope /> info@cafunsic.it</p>
-          <p style={styles.contactItem}><FaMapMarkerAlt /> Via Angelo Bargoni 78 - 00153 – Roma</p>
+          <p style={styles.contactItem}><FaPhoneAlt /> +39 350 881 6335</p>
+          <p style={styles.contactItem}><FaEnvelope /> unas.vicenza@gmail.com</p>
+          <p style={styles.contactItem}><FaMapMarkerAlt /> 36100 Vicenza Italy</p>
 
           <div style={styles.socialIcons}>
             <FaFacebookF style={styles.icon} />
@@ -131,7 +131,7 @@ const Footer = () => {
       {/* FOOTER BOTTOM */}
       <div style={styles.footerBottom}>
         <p>
-          © Copyright 2025 - Caf Unsic &nbsp;|&nbsp;
+          © Copyright 2025 - Caf Unas &nbsp;|&nbsp;
           <span>Terms & Conditions</span> / <span>Privacy Policy</span> / <span>Sitemap</span>
         </p>
       </div>

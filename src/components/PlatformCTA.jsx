@@ -12,7 +12,7 @@ const PlatformCTA = () => {
       <div className="platform-cta-content">
         <h2 className="platform-cta-title">
           Accedi alla piattaforma <br />
-          Caf Unsic – Qweb Zucchetti
+          Caf Unas – Qweb Zucchetti
         </h2>
         <button className="platform-cta-btn">
           Accedi al programma

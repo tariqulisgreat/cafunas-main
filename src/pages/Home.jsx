@@ -17,6 +17,7 @@ const Home = () => {
     boxSizing: "border-box",
     fontFamily: "Poppins, sans-serif",
     overflowX: "hidden", // prevent horizontal scroll
+    backgroundColor: "#f5efe6"
   };
 
   const sectionStyle = {

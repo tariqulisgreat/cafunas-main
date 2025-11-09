@@ -10,12 +10,12 @@ const RightSideContent = () => {
 
       {/* Paragraph under logo */}
       <p className="welcome-text">
-        Benvenuti in Caf Unsic
+        Benvenuti in Caf Unas
       </p>
 
       {/* Heading 1 */}
       <h1 className="main-heading">
-        Caf Unsic sempre<br />accanto a te!
+        Caf Unas sempre<br />accanto a te!
       </h1>
 
       {/* Heading 2 */}
@@ -25,7 +25,7 @@ const RightSideContent = () => {
 
       {/* Paragraph */}
       <p className="description-text">
-        Noi siamo il CAF Unsic. Il nostro compito è esserti vicino nei tuoi adempimenti quotidiani, sia che tu debba richiedere un'agevolazione o prestazione sociale attraverso il modello ISEE, o che debba rispondere agli obblighi dichiarativi per il versamento delle imposte. Lo facciamo attraverso una presenza capillare su tutto il territorio nazionale. Mettiamo a disposizione i nostri strumenti e le nostre competenze al tuo servizio per colmare la distanza tra te e gli Enti. <br /><br />
+        Noi siamo il CAF Unas. Il nostro compito è esserti vicino nei tuoi adempimenti quotidiani, sia che tu debba richiedere un'agevolazione o prestazione sociale attraverso il modello ISEE, o che debba rispondere agli obblighi dichiarativi per il versamento delle imposte. Lo facciamo attraverso una presenza capillare su tutto il territorio nazionale. Mettiamo a disposizione i nostri strumenti e le nostre competenze al tuo servizio per colmare la distanza tra te e gli Enti. <br /><br />
         Ti garantiamo la sicurezza di una copertura assicurativa in caso di errori. Tuteliamo i tuoi diritti e siamo garanti di legalità nei confronti dello Stato.
       </p>
     </div>

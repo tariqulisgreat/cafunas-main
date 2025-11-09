@@ -14,10 +14,16 @@ const UniFor = () => {
       desc: "Percorsi per formare operatori qualificati in ambito fiscale e previdenziale. 🧑‍🏫",
     },
     {
-      id: "lingua",
+      id: "A1",
       icon: "🗣️",
-      title: "A2 B1",
-      desc: "Necessari per permessi di soggiorno UE e cittadinanza italiana. 🇮🇹",
+      title: "Corso di lingua livello A1",
+      desc: "Livello base per la comunicazione e comprensione della lingua italiana. 🇮🇹",
+    },
+    {
+      id: "B2",
+      icon: "🗣️",
+      title: "Corso di lingua livello B2",
+      desc: "Livello avanzato necessario per lavoro, studio e cittadinanza italiana. 🇮🇹",
     },
     {
       id: "informatica",
@@ -35,14 +41,16 @@ const UniFor = () => {
 
   const headerStyle = {
     textAlign: "center",
-    padding: "20px 20px 10px", // reduced height
-    backgroundColor: "#059927ff", // green background
+    padding: "20px 20px 10px",
+    backgroundColor: "#059927ff",
   };
+
   const headerTitle = {
     fontSize: "3rem",
     marginBottom: "10px",
-    color: "#fff", // white text for contrast
+    color: "#fff",
   };
+
   const headerSubtitle = {
     fontSize: "1.2rem",
     color: "#f8f9fa",
@@ -72,7 +80,7 @@ const UniFor = () => {
     color: "inherit",
     textAlign: "center",
     cursor: "pointer",
-    minHeight: "320px",
+    minHeight: "340px",
   };
 
   const cardIcon = { fontSize: "3.5rem", marginBottom: "15px" };
@@ -86,6 +94,17 @@ const UniFor = () => {
     fontSize: "1rem",
     color: "#555",
     lineHeight: "1.5",
+    marginBottom: "20px",
+  };
+
+  const loginButtonStyle = {
+    backgroundColor: "#059927",
+    color: "#fff",
+    padding: "10px 20px",
+    borderRadius: "8px",
+    textDecoration: "none",
+    fontWeight: "600",
+    transition: "background-color 0.3s ease",
   };
 
   return (
@@ -98,7 +117,7 @@ const UniFor = () => {
         <img
           src={uniforLogo}
           alt="UniFor Logo"
-          style={{ height: "220px", marginBottom: "5px" }} // bigger logo
+          style={{ height: "220px", marginBottom: "5px" }}
         />
         <h1 style={headerTitle}>Servizi UniFor</h1>
         <p style={headerSubtitle}>
@@ -110,9 +129,8 @@ const UniFor = () => {
       <div style={containerStyle}>
         <div style={cardsContainer}>
           {cards.map((card) => (
-            <Link
+            <div
               key={card.id}
-              to={`/unifor/${card.id}`}
               style={cardStyle}
               onMouseEnter={(e) =>
                 Object.assign(e.currentTarget.style, {
@@ -130,7 +148,10 @@ const UniFor = () => {
               <div style={cardIcon}>{card.icon}</div>
               <h2 style={cardTitle}>{card.title}</h2>
               <p style={cardText}>{card.desc}</p>
-            </Link>
+              <Link to={`/login/${card.id}`} style={loginButtonStyle}>
+                Login
+              </Link>
+            </div>
           ))}
         </div>
       </div>

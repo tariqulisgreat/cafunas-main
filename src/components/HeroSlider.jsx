@@ -7,7 +7,7 @@ import slider2 from "../assets/images/slider2.jpg";
 const slides = [
   {
     image: slider1,
-    heading: "Benvenuti in Caf Unsic",
+    heading: "Benvenuti in Caf Unas",
     text: "Offriamo formazione professionale di alta qualità.",
   },
   {

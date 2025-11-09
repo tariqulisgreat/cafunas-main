@@ -1,12 +1,12 @@
 import contactImage from "../assets/images/contact-image.jpg"; // replace with your image
-import siteLogo from "../assets/images/site-logo.png"; // small site logo
+import siteLogo from "../assets/images/logo.png"; // small site logo
 
 const ContactSection = () => {
   const styles = {
     section: {
       width: "100%",
       padding: "60px 20px",
-      backgroundColor: "#f8f9fa",
+      backgroundColor: "#ebe5e5",
       boxSizing: "border-box",
       display: "flex",
       justifyContent: "center",

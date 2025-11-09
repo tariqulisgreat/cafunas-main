@@ -1,11 +1,11 @@
 .full-cta-section {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color: #ebe5e5;
 }
 
 .full-cta-container {
   display: flex;
-  gap: 80px; /* more space between left and right */
+  gap: 60px; /* ↓ reduced from 80px to 60px to move right side slightly left */
   max-width: 1300px;
   margin: 0 auto;
   flex-wrap: nowrap;

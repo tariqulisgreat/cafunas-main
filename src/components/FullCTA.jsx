@@ -1,7 +1,7 @@
 import React from "react";
 import { FaMapPin } from "react-icons/fa";
 import { FaFolderOpen } from "react-icons/fa6";
-import siteLogo from "../assets/images/site-logo.png";
+import siteLogo from "../assets/images/logo.png";
 import largeImg from "../assets/images/large-side-img.jpg";
 import "./FullCTA.css";
 
@@ -16,7 +16,7 @@ const FullCTA = () => {
             <div className="chat-badge">
               <p>
                 Insieme dal<br />
-                <strong>2009</strong>
+                <strong>2013</strong>
               </p>
             </div>
           </div>
@@ -43,16 +43,16 @@ const FullCTA = () => {
         {/* RIGHT SIDE */}
         <div className="cta-right">
           <img src={siteLogo} alt="Site Logo" className="site-logo" />
-          <p className="welcome-text">Benvenuti in Caf Unsic</p>
+          <p className="welcome-text">Benvenuti in Caf Unas</p>
           <h1 className="main-heading">
-            Caf Unsic sempre<br />accanto a te!
+            Caf Unas sempre<br />accanto a te!
           </h1>
           <h2 className="sub-heading">
             Abbiamo un'esperienza ultra decennale del mondo Caf che mettiamo a tua
             disposizione in modo professionale
           </h2>
           <p className="description-text">
-            Noi siamo il CAF Unsic. Il nostro compito è esserti vicino nei tuoi
+            Noi siamo il CAF Unas. Il nostro compito è esserti vicino nei tuoi
             adempimenti quotidiani, sia che tu debba richiedere un'agevolazione o
             prestazione sociale attraverso il modello ISEE, o che debba rispondere
             agli obblighi dichiarativi per il versamento delle imposte. Lo facciamo

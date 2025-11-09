@@ -11,7 +11,7 @@ const CallToAction = () => {
     section: {
       width: "100%",
       padding: "60px 20px",
-      backgroundColor: "#f8f9fa",
+      backgroundColor: "#ebe5e5",
       boxSizing: "border-box",
       display: "flex",
       justifyContent: "center",
@@ -89,7 +89,7 @@ const CallToAction = () => {
           <div style={styles.chatBadge}>
             Insieme dal
             <br />
-            <strong>2009</strong>
+            <strong>2013</strong>
           </div>
         </div>
 

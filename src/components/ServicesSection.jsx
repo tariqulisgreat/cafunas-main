@@ -34,7 +34,7 @@ const ServicesSection = () => {
       padding: "80px 20px",
       textAlign: "center",
       fontFamily: "Poppins, sans-serif",
-      backgroundColor: "#f8f9fa",
+      backgroundColor: "#ebe5e5",
     },
     heading: {
       fontSize: "2.5rem",
