@@ -91,9 +91,14 @@ const Footer = () => {
           <h3 style={styles.sectionTitle}>Contatti</h3>
           <p style={styles.contactItem}><FaPhoneAlt /> +39 350 881 6335</p>
           <p style={styles.contactItem}><FaEnvelope /> unas.vicenza@gmail.com</p>
-          <p style={styles.contactItem}><FaMapMarkerAlt />Sede Principale: Via Quinto Sella 79
-36100  Vicenza(VI)
-ITALIAy</p>
+          <p style={styles.contactItem}>
+  <FaMapMarkerAlt />
+  Sede Principale:
+  Via Quinto Sella 79<br />
+  36100 Vicenza (VI)<br />
+  ITALIA
+</p>
+
 
           <div style={styles.socialIcons}>
             <FaFacebookF style={styles.icon} />
